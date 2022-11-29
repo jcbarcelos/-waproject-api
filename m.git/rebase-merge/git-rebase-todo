@@ -1,6 +1,0 @@
-pick 8996ed0a25104b2a424c87b884b6c04780623b6c refactor: modify filmesRouter
-pick 365606ba30ffbcfad38ad5316ff811bf94275d0a refactor: remove api
-pick 9e671b6942bc57501fc288ec0a1aadcef997bfa9 feat: add readme
-pick 80a7055325bb1ae3373fe5528bd62c5219304e47 feat: add git add in husky
-pick 90ca6c34dfce0dcb261f7aceac3cb321f9fcb75e feat: add git add in husky
-pick f1d422d70c845e57b6650d97081e76a6200bd175 feat: add screens

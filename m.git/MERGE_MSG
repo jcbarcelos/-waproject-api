@@ -1,4 +1,0 @@
-refactor: modify filmesUseCase
-
-# Conflicts:
-#	src/modules/filmes/FilmesUseCase.ts
