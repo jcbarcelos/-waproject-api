@@ -1,0 +1,8 @@
+pick e0a59be27abcf72523400f3a3bead28088efca53 refactor: modify filmesController and FilmesUseCase
+pick dbf3d955788d016791ffbbe0f513ff5a48deebc5 refactor: modify iFilmes
+pick 0cf392f88bd9408e6c028b938e9ba6c99d5bc2c8 refactor: modify filmesUseCase prisma
+pick 78d3e4987ee8db20382b519a77769130b7499b76 refactor: modify table remove unique
+pick 39f0639a638bf84caba7bed35232d5173021f125 refactor: modify filmesController.spec
+pick 95f779a306c32f1dcd3bb2585ddf2b51e2be2b67 refactor: modify filmesUseCase.spec
+pick 7a4b1afab5ab5f7e2e1d8e29406173d8afb2031b refactor: modify filmesController
+pick 28f6e6942114464cbc0681e13127ba178ae024c3 refactor: modify filmesUseCase

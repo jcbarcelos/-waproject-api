@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm test
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+git add .
+>>>>>>> e0a59be (refactor: modify filmesController and FilmesUseCase)
+=======
+
+>>>>>>> dbf3d95 (refactor: modify iFilmes)

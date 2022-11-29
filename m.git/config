@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	hooksPath = .husky
+[remote "origin"]
+	url = https://github.com/jcbarcelos/-waproject-api.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://github.com/jcbarcelos/-waproject-api.git
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main

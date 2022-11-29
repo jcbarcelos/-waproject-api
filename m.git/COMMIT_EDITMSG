@@ -1,0 +1,17 @@
+refactor: modify filmesUseCase prisma
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto eed7c14
+# Last commands done (3 commands done):
+#    pick dbf3d95 refactor: modify iFilmes
+#    pick 0cf392f refactor: modify filmesUseCase prisma
+# Next commands to do (11 remaining commands):
+#    pick 78d3e49 refactor: modify table remove unique
+#    pick 39f0639 refactor: modify filmesController.spec
+# You are currently rebasing branch 'master' on 'eed7c14'.
+#
+# Changes to be committed:
+#	modified:   src/modules/filmes/FilmesUseCase.ts
+#
