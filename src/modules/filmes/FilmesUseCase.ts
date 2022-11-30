@@ -17,16 +17,16 @@ export class FilmesUseCase {
     let listFilmes = [];
     apiFilmesList?.json()?.then((res) => listFilmes.push(res));
 
-    const listResults = await prisma.filmes.findMany()
+    // const listResults = await prisma.filmes.findMany()
+    const myFilmesList = await listFilmes
+   
 
-    const filmes = await listResults;
-
-    for (let index = 0; index <= listFilmes.length; index++) {
+    for (let index = 0; index <= myFilmesList.length; index++) {
 
       const filmesExists = await prisma.filmes.findFirst({
         where: {
           id: {
-            equals: filmes[index]?.id,
+            equals: myFilmesList[index]?.id,
             mode: "insensitive",
           },
         },
@@ -35,11 +35,11 @@ export class FilmesUseCase {
       if (!filmesExists) {
         await prisma.filmes.create({
           data: {
-            title: filmes[index]?.title,
-            description: filmes[index]?.description,
-            director: filmes[index]?.director,
-            producer: filmes[index]?.producer,
-            movie_banner: filmes[index]?.movie_banner,
+            title: myFilmesList[index]?.title,
+            description: myFilmesList[index]?.description,
+            director: myFilmesList[index]?.director,
+            producer: myFilmesList[index]?.producer,
+            movie_banner: myFilmesList[index]?.movie_banner,
           },
         });
       }
@@ -47,18 +47,18 @@ export class FilmesUseCase {
       if (filmesExists) {
         await prisma.filmes.updateMany({
           where: {
-            id: filmes[index]?.id
+            id: myFilmesList[index]?.id
           },
           data: {
-            title: filmes[index]?.title,
-            description: filmes[index]?.description,
-            director: filmes[index]?.director,
-            producer: filmes[index]?.producer,
-            movie_banner: filmes[index]?.movie_banner,
+            title: myFilmesList[index]?.title,
+            description: myFilmesList[index]?.description,
+            director: myFilmesList[index]?.director,
+            producer: myFilmesList[index]?.producer,
+            movie_banner: myFilmesList[index]?.movie_banner,
           },
         })
       }
     }
-    return filmes
+    return myFilmesList
   }
 }

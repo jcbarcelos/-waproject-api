@@ -7,8 +7,9 @@
     "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "jest --passWithNoTests",
     "test:staged": "jest --watchAll --passWithNoTests",
-    "prepare": "husky install",
-    "eslint": "npx eslint 'src/**/*.ts' --fix"
+   
+    "eslint": "npx eslint 'src/**/*.ts' --fix",
+    "preprepare": "npx prisma migrate dev "
   },
   "keywords": [],
   "author": "Júlio César",

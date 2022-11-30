@@ -10,14 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": false,
     "skipLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@routes/*": ["./src/routes/*"],
-      "@modules/*": ["./src/modules/*"],
-      "@types/*": ["src/types/*"],
-      "@utils/*": ["src/utils/*"],
-      "@interfaces/*": ["src/interfaces/*"],
-      "@database/*": ["src/database/*"]
-    }
+    "baseUrl": "."
+   
   }
 }

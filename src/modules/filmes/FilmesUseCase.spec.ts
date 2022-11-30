@@ -1,6 +1,5 @@
 import { FilmesUseCase } from './FilmesUseCase';
 jest.mock('node-fetch');
-import fetch, {Response} from 'node-fetch';
 
 describe('Test FilmesUseCase', () => {
 

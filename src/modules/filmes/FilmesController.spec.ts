@@ -1,5 +1,5 @@
-import { filmesRouter } from '@routes/index';
-import { FilmesController } from './FilmesController';
+import { filmesRouter } from '../../routes/index';
+
 import express from 'express';
 import request from 'supertest';
 

@@ -17,12 +17,5 @@ module.exports = {
   preset: 'ts-jest',
   clearMocks: true,
   testMatch: ['**/*.spec.ts'],
-  moduleNameMapper: {
-    '^@routes/(.*)$': '<rootDir>/src/routes/$1',
-    '^@modules/(.*)$': '<rootDir>/src/modules/$1',
-    '^@interfaces/(.*)$': '<rootDir>/src/interfaces/$1',
-    '^@database/(.*)$': '<rootDir>/src/database/$1',
-    '^@utils/(.*)$': '<rootDir>/src/utils/$1',
-    '^@types/(.*)$': '<rootDir>/src/types/$1'
-  }
+
 }
